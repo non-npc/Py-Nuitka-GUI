@@ -47,9 +47,9 @@ For a complete list of dependencies, see `requirements.txt`.
 
 ## Usage
 
-*Run the windows application executable* 
-(Distributable coming soon, however you can generate it yourself by using this script to generate the exe.)
+Run the windows application executable (https://github.com/non-npc/Py-Nuitka-GUI/releases/tag/v0.1)
 
+OR
 
 Run the application using Python:
 
