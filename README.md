@@ -62,6 +62,7 @@ python py_nuitka_gui.py
 3. Set the desired options using the checkboxes and input fields.
 4. Click "Compile" to start the compilation process.
 5. The progress bar will show the compilation progress, and the output will be displayed in the "Compiler Output" section.
+6. Depending on the size and number of module dependencies in you project, you may see "Nuitka: Starting Python compilation with Nuitka '2.4.5'..." for several minutes as it builds the dependencies.
 
 ## Notes
 
