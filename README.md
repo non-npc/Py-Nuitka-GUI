@@ -6,6 +6,10 @@ Create exe files from py files easily with Py Nuitka GUI!
 
 Py Nuitka GUI is a graphical user interface for the Nuitka Python compiler. It provides an easy-to-use interface for compiling Python scripts using Nuitka, with various compilation options available.
 
+Nuitka is an advanced Python compiler that transforms Python scripts into highly optimized, standalone executable files. It compiles Python code to C, allowing it to leverage the performance benefits of native C code execution while maintaining full compatibility with existing Python libraries and features. Nuitka excels in creating efficient and fast executables that can be distributed across various platforms without requiring a separate Python runtime environment.
+
+Our application, 'Py Nuitka GUI,' is designed to make this powerful compiler accessible to users of all skill levels. With its intuitive graphical interface, 'Py Nuitka GUI' simplifies the process of configuring compilation options and generating executables. Users can easily select their Python scripts, specify output directories, and adjust numerous compilation settings through a straightforward and user-friendly interface. The application also provides real-time feedback on the compilation progress, ensuring a smooth and efficient workflow. By combining the robustness of Nuitka with the ease of use provided by 'Py Nuitka GUI,' users can effortlessly create high-performance, standalone executables, making it the ideal tool for both novice and experienced developers.
+
 ## Features
 
 - Select Python (.py) files for compilation
