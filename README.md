@@ -16,7 +16,6 @@ Py Nuitka GUI is a graphical user interface for the Nuitka Python compiler. It p
 - Python 3.6+
 - Tkinter (usually comes pre-installed with Python)
 - Nuitka compiler https://nuitka.net/
-- Windows 10/11
 
 For a complete list of dependencies, see `requirements.txt`.
 
@@ -24,7 +23,7 @@ For a complete list of dependencies, see `requirements.txt`.
 
 1. Clone this repository:
    ```
-   git clone https://github.com/non-npc/py-nuitka-gui.git
+   git clone https://github.com/yourusername/py-nuitka-gui.git
    ```
 
 2. Navigate to the project directory:
