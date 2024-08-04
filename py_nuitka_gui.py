@@ -98,7 +98,7 @@ class NuitkaGUI:
         
         # Compile the regex pattern once for efficiency
         self.nuitka_pattern = re.compile(r'Nuitka.*:')
-        
+
     def create_menu_bar(self):
         menubar = tk.Menu(self.root)
         self.root.config(menu=menubar)
@@ -158,7 +158,7 @@ class NuitkaGUI:
                         self.options[opt].set(value)
             
             messagebox.showinfo("Load Settings", "Settings loaded successfully!")
-            
+
     def show_help(self):
         help_window = tk.Toplevel(self.root)
         help_window.title("Help")
@@ -238,6 +238,7 @@ Created by: non-npc"""
             ("General Options", [
                 ("--show-memory", "bool", "Output memory information"),
                 ("--remove-output", "bool", "Remove output directory before compilation"),
+                ("--enable-plugin=tk-inter", "bool", "Enable Tkinter plugin (recommended for Tkinter applications)"),
             ]),
             ("Basic Options", [
                 ("--output-filename", "str", "Specify output filename"),
@@ -362,7 +363,7 @@ Created by: non-npc"""
 
         command_str = ' '.join(command)
         self.command_str = command_str
-        print(command_str)
+        
         confirm = messagebox.askokcancel("Confirm Compilation", 
                                          f"Do you want to execute the following command?\n\n{command_str}\n\n"
                                          "Click OK to proceed or Cancel to abort.")
