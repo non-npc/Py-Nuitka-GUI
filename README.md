@@ -24,7 +24,7 @@ For a complete list of dependencies, see `requirements.txt`.
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/py-nuitka-gui.git
+   git clone https://github.com/non-npc/py-nuitka-gui.git
    ```
 
 2. Navigate to the project directory:
