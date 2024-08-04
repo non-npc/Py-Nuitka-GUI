@@ -16,6 +16,7 @@ Py Nuitka GUI is a graphical user interface for the Nuitka Python compiler. It p
 - Python 3.6+
 - Tkinter (usually comes pre-installed with Python)
 - Nuitka compiler https://nuitka.net/
+- Windows 10/11
 
 For a complete list of dependencies, see `requirements.txt`.
 
