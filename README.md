@@ -1,5 +1,9 @@
 # Py Nuitka GUI
 
+Create exe files from py files easily with Py Nuitka GUI!
+
+![Py Nuitka GUI Screenshot](screenshot.png)
+
 Py Nuitka GUI is a graphical user interface for the Nuitka Python compiler. It provides an easy-to-use interface for compiling Python scripts using Nuitka, with various compilation options available.
 
 ## Features
